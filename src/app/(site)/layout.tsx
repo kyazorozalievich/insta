@@ -1,5 +1,4 @@
 import { FC, ReactNode } from "react";
-import scss from "./layout.module.scss";
 import LayoutSite from "@/components/layout/LayoutSite";
 
 interface Ilayout {

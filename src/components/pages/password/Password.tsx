@@ -2,7 +2,6 @@
 import scss from "./Password.module.scss";
 import Link from "next/link";
 import { IoLockClosedOutline } from "react-icons/io5";
-import { useRouter } from "next/navigation";
 import { SubmitHandler, useForm } from "react-hook-form";
 
 interface IForgot {
@@ -10,15 +9,9 @@ interface IForgot {
 }
 
 const Forgot = () => {
-  const router = useRouter();
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { isSubmitting },
-  } = useForm<IForgot>();
+  const { register, handleSubmit, reset } = useForm<IForgot>();
 
-  const resetPassword: SubmitHandler<IForgot> = async (email) => {
+  const resetPassword: SubmitHandler<IForgot> = async () => {
     alert("Your password email!");
     reset();
   };
