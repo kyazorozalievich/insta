@@ -75,7 +75,7 @@ const Welcome = () => {
               <div className={scss.password}>
                 <input
                   type={pokaz ? "text" : "password"}
-                  placeholder="Пароль"
+                  placeholder="Пароль" 
                   {...register("password", { required: true })}
                   onChange={(e) => setPassword(e.target.value)}
                 />
