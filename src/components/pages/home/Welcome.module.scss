@@ -52,6 +52,9 @@
           padding-inline: 10px;
           border: 1px solid rgba(128, 128, 128, 0.453);
           background: rgba(128, 128, 128, 0.047);
+          &::placeholder {
+            font-size: 10px;
+          }
         }
         .password {
           width: 300px;
@@ -67,6 +70,9 @@
             width: 70%;
             background: transparent;
             border: none;
+            &::placeholder {
+              font-size: 10px;
+            }
           }
           .pokaz {
             h6 {
