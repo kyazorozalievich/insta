@@ -6,7 +6,7 @@ const Next = () => {
     <section className={scss.next}>
       <div className="container">
         <div className={scss.content}>
-          <h1>Неизвестная ошибка при входе</h1>
+          <h1>Неизвестная ошибка при входе (404)</h1>
         </div>
       </div>
     </section>
