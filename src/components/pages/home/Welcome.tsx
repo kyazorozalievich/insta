@@ -46,7 +46,7 @@ const Welcome = () => {
 
   return (
     <section className={scss.welcome}>
-      <div className="container">
+      <div className="container"> 
         <div className={scss.content}>
           <div className={scss.imgBlock}>
             <Image
